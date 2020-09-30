@@ -1,6 +1,6 @@
 # realtime_database
 
-A Flutter plugin Firebase realtime database fro Android, iOS and Web Platforms
+A Flutter plugin for Firebase realtime database supports Android, iOS and Web Platforms
 
 ## Getting Started
 
