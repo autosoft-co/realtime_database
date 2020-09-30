@@ -1,6 +1,5 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:realtime_database/realtime_database.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('realtime_database');

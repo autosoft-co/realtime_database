@@ -1,4 +1,5 @@
 import 'package:firebase_database/firebase_database.dart';
+
 import 'realtime_database.dart';
 
 class RealtimeDatabaseNativeImpl extends RealtimeDatabase {
