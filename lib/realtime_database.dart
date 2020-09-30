@@ -1,14 +1,42 @@
+export 'realtime_database_unsupported.dart'
+    if (dart.library.html) 'realtime_database_web_impl.dart'
+    if (dart.library.io) 'realtime_database_native_impl.dart';
 
-import 'dart:async';
+abstract class RealtimeDatabase {
+  final String _prefix;
 
-import 'package:flutter/services.dart';
+  RealtimeDatabase(this._prefix);
 
-class RealtimeDatabase {
-  static const MethodChannel _channel =
-      const MethodChannel('realtime_database');
+  Future<void> pushValueAtPath(
+    String path,
+    dynamic value, {
+    usePrefix = true,
+  });
 
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
-  }
+  Future<void> setValueAtPath(
+    String path,
+    dynamic value, {
+    usePrefix = true,
+  });
+  Future<void> updateValueAtPath(
+    String path,
+    dynamic value, {
+    usePrefix = true,
+  });
+  Future<dynamic> getValueAtPath(
+    String path, {
+    String orderByChild,
+    startAt,
+    endAt,
+    usePrefix = true,
+  });
+  Stream<dynamic> watchValueAtPath(
+    String path, {
+    String orderByChild,
+    startAt,
+    endAt,
+    usePrefix = true,
+  });
+
+  String getPrefix(bool usePrefix) => usePrefix ? _prefix : '/';
 }
