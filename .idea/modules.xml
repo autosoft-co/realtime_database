@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/realtime_database.iml" filepath="$PROJECT_DIR$/realtime_database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/realtime_database_android.iml" filepath="$PROJECT_DIR$/android/realtime_database_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/realtime_database_example_android.iml" filepath="$PROJECT_DIR$/example/android/realtime_database_example_android.iml" />
+    </modules>
+  </component>
+</project>
