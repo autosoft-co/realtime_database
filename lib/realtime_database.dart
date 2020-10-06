@@ -3,9 +3,9 @@ export 'realtime_database_unsupported.dart'
     if (dart.library.io) 'realtime_database_native_impl.dart';
 
 abstract class RealtimeDatabase {
-  final String _prefix;
+  final Function<String>() _makePrefix;
 
-  RealtimeDatabase(this._prefix);
+  RealtimeDatabase(this._makePrefix);
 
   Future<void> pushValueAtPath(
     String path,
@@ -38,5 +38,5 @@ abstract class RealtimeDatabase {
     usePrefix = true,
   });
 
-  String getPrefix(bool usePrefix) => usePrefix ? _prefix : '/';
+  String getPrefix(bool usePrefix) => usePrefix ? _makePrefix() : '/';
 }
