@@ -5,7 +5,7 @@ import 'realtime_database.dart';
 class RealtimeDatabaseNativeImpl extends RealtimeDatabase {
   final _database = FirebaseDatabase.instance;
 
-  RealtimeDatabaseNativeImpl(Function<String>() makePrefix) : super(makePrefix);
+  RealtimeDatabaseNativeImpl(String Function() makePrefix) : super(makePrefix);
 
   @override
   Future getValueAtPath(String path,
@@ -69,6 +69,6 @@ class RealtimeDatabaseNativeImpl extends RealtimeDatabase {
   }
 }
 
-RealtimeDatabase constructRealtimeDatabase(Function<String>() makePrefix) {
+RealtimeDatabase constructRealtimeDatabase(String Function() makePrefix) {
   return RealtimeDatabaseNativeImpl(makePrefix);
 }

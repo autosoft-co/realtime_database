@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1345f53a-b6fd-43ed-a005-c82f47318992" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/realtime_database.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/realtime_database.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/realtime_database_native_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/realtime_database_native_impl.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/realtime_database_unsupported.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/realtime_database_unsupported.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/realtime_database_web_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/realtime_database_web_impl.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,28 +72,36 @@
       <option name="project" value="LOCAL" />
       <updated>1601490814424</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="use dynamic prefix maker">
+      <created>1602007711288</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602007711288</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init plugin" />
     <MESSAGE value="implementation" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="use dynamic prefix maker" />
+    <option name="LAST_COMMIT_MESSAGE" value="use dynamic prefix maker" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="154" y="25" key="CommitChangelistDialog2" timestamp="1601490814190">
+    <state x="154" y="25" key="CommitChangelistDialog2" timestamp="1602007710919">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="154" y="25" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1601490814190" />
+    <state x="154" y="25" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1602007710919" />
     <state x="221" y="60" key="SettingsEditor" timestamp="1601490104288">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="221" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1601490104288" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1601490817953">
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1602007714801">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1601490817953" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1602007714801" />
     <state x="390" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1602007469154">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

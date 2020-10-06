@@ -5,7 +5,7 @@ import 'realtime_database.dart';
 class RealtimeDatabaseWebImpl extends RealtimeDatabase {
   final _database = database();
 
-  RealtimeDatabaseWebImpl(Function<String>() makePrefix) : super(makePrefix);
+  RealtimeDatabaseWebImpl(String Function() makePrefix) : super(makePrefix);
 
   @override
   Future<void> setValueAtPath(String path, value, {usePrefix = true}) async {
@@ -66,6 +66,6 @@ class RealtimeDatabaseWebImpl extends RealtimeDatabase {
   }
 }
 
-RealtimeDatabase constructRealtimeDatabase(Function<String>() makePrefix) {
+RealtimeDatabase constructRealtimeDatabase(String Function() makePrefix) {
   return RealtimeDatabaseWebImpl(makePrefix);
 }

@@ -3,7 +3,7 @@ export 'realtime_database_unsupported.dart'
     if (dart.library.io) 'realtime_database_native_impl.dart';
 
 abstract class RealtimeDatabase {
-  final Function<String>() _makePrefix;
+  final String Function() _makePrefix;
 
   RealtimeDatabase(this._makePrefix);
 
