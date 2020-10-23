@@ -66,10 +66,11 @@ class RealtimeDatabaseWebImpl extends RealtimeDatabase {
   }
 
   @override
-  Future<int> get serverTimestamp  async {
+  Future<int> get serverTimestamp async {
     final event = await _database.ref("/.info/serverTimeOffset").once("value");
-    return (event.snapshot.val() as int) + DateTime.now().millisecondsSinceEpoch;
-  };
+    return (event.snapshot.val() as int) +
+        DateTime.now().millisecondsSinceEpoch;
+  }
 }
 
 RealtimeDatabase constructRealtimeDatabase(String Function() makePrefix) {
