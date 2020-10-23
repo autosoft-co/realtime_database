@@ -38,5 +38,7 @@ abstract class RealtimeDatabase {
     usePrefix = true,
   });
 
+  Future<int> get serverTimestamp;
+
   String getPrefix(bool usePrefix) => usePrefix ? _makePrefix() : '/';
 }

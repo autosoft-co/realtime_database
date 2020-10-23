@@ -67,7 +67,15 @@ class RealtimeDatabaseNativeImpl extends RealtimeDatabase {
         .push()
         .set(value);
   }
+
+  @override
+  Future<int> get serverTimestamp async {
+    final offsetSnap = await _database.reference().child("/.info/serverTimeOffset").once();
+    return (offsetSnap.value as int) + DateTime.now().millisecondsSinceEpoch;
+  };
 }
+
+
 
 RealtimeDatabase constructRealtimeDatabase(String Function() makePrefix) {
   return RealtimeDatabaseNativeImpl(makePrefix);

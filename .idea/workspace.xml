@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/realtime_database.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/realtime_database.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/realtime_database_native_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/realtime_database_native_impl.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/realtime_database_unsupported.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/realtime_database_unsupported.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/realtime_database_web_impl.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/realtime_database_web_impl.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602007711288</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add proper typing to function">
+      <created>1602008026050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602008026050</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -87,28 +93,29 @@
     <MESSAGE value="implementation" />
     <MESSAGE value="changes" />
     <MESSAGE value="use dynamic prefix maker" />
-    <option name="LAST_COMMIT_MESSAGE" value="use dynamic prefix maker" />
+    <MESSAGE value="add proper typing to function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add proper typing to function" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="154" y="25" key="CommitChangelistDialog2" timestamp="1602007710919">
+    <state x="154" y="25" key="CommitChangelistDialog2" timestamp="1602008025739">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="154" y="25" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1602007710919" />
+    <state x="154" y="25" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1602008025739" />
     <state x="221" y="60" key="SettingsEditor" timestamp="1601490104288">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="221" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1601490104288" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1602007714801">
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1602008031351">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1602007714801" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1602008031351" />
     <state x="390" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1602007469154">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="390" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1602007469154" />
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1601490622686">
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1603470462859">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1601490622686" />
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1603470462859" />
   </component>
 </project>
