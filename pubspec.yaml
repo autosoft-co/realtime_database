@@ -1,6 +1,6 @@
 name: realtime_database
 description: A Flutter plugin Firebase realtime database fro Android, iOS and Web Platforms
-version: 0.0.1
+version: 0.0.2
 author:
 homepage:
 
@@ -11,8 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase: 7.3.0
-  firebase_database: 4.0.0
+  firebase: 7.3.2
+  firebase_database: 4.1.1
 
 dev_dependencies:
   flutter_test:
