@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1345f53a-b6fd-43ed-a005-c82f47318992" name="Default Changelist" comment="add server timestamp">
+    <list default="true" id="1345f53a-b6fd-43ed-a005-c82f47318992" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +90,42 @@
       <option name="project" value="LOCAL" />
       <updated>1603470809191</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix minor error">
+      <created>1603476495835</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603476495835</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix minor error">
+      <created>1603476509652</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603476509652</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix minor error">
+      <created>1603476518539</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603476518539</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update dependencies">
+      <created>1603529803608</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603529803608</updated>
+    </task>
+    <task id="LOCAL-00011" summary="provide homepage and author. run pub get.">
+      <created>1603530090371</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603530090371</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -99,21 +135,28 @@
     <MESSAGE value="use dynamic prefix maker" />
     <MESSAGE value="add proper typing to function" />
     <MESSAGE value="add server timestamp" />
-    <option name="LAST_COMMIT_MESSAGE" value="add server timestamp" />
+    <MESSAGE value="fix minor error" />
+    <MESSAGE value="update dependencies" />
+    <MESSAGE value="provide homepage and author. run pub get." />
+    <option name="LAST_COMMIT_MESSAGE" value="provide homepage and author. run pub get." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="154" y="25" key="CommitChangelistDialog2" timestamp="1603476509366">
+    <state x="154" y="25" key="CommitChangelistDialog2" timestamp="1603530090088">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="154" y="25" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1603476509366" />
+    <state x="154" y="25" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1603530090088" />
+    <state x="202" y="121" key="DiffContextDialog" timestamp="1603530039426">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="202" y="121" key="DiffContextDialog/0.23.1440.797@0.23.1440.797" timestamp="1603530039426" />
     <state x="221" y="60" key="SettingsEditor" timestamp="1601490104288">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="221" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1601490104288" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1603470816162">
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1603530092662">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603470816162" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1603530092662" />
     <state x="390" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1602007469154">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
