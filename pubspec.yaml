@@ -11,8 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase: 7.3.2
-  firebase_database: 4.1.1
+  firebase: ^9.0.2
+  firebase_database: ^9.0.5
 
 dev_dependencies:
   flutter_test:

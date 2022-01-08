@@ -10,7 +10,7 @@ class RealtimeDatabaseNativeImpl extends RealtimeDatabase {
   @override
   Future getValueAtPath(String path,
       {String orderByChild, dynamic startAt, endAt, usePrefix = true}) async {
-    Query ref = _database.reference().child(getPrefix(usePrefix)).child(path);
+    Query ref = _database.ref().child(getPrefix(usePrefix)).child(path);
     if (orderByChild != null) {
       ref = ref.orderByChild(orderByChild);
     }
@@ -21,31 +21,23 @@ class RealtimeDatabaseNativeImpl extends RealtimeDatabase {
       ref = ref.endAt(endAt);
     }
     final snap = await ref.once();
-    return snap.value;
+    return snap.snapshot.value;
   }
 
   @override
   Future<void> setValueAtPath(String path, value, {usePrefix = true}) async {
-    await _database
-        .reference()
-        .child(getPrefix(usePrefix))
-        .child(path)
-        .set(value);
+    await _database.ref().child(getPrefix(usePrefix)).child(path).set(value);
   }
 
   @override
   Future<void> updateValueAtPath(String path, value, {usePrefix = true}) async {
-    await _database
-        .reference()
-        .child(getPrefix(usePrefix))
-        .child(path)
-        .update(value);
+    await _database.ref().child(getPrefix(usePrefix)).child(path).update(value);
   }
 
   @override
   Stream watchValueAtPath(String path,
       {String orderByChild, startAt, endAt, usePrefix = true}) {
-    Query ref = _database.reference().child(getPrefix(usePrefix)).child(path);
+    Query ref = _database.ref().child(getPrefix(usePrefix)).child(path);
     if (orderByChild != null) {
       ref = ref.orderByChild(orderByChild);
     }
@@ -61,7 +53,7 @@ class RealtimeDatabaseNativeImpl extends RealtimeDatabase {
   @override
   Future<void> pushValueAtPath(String path, value, {usePrefix = true}) async {
     await _database
-        .reference()
+        .ref()
         .child(getPrefix(usePrefix))
         .child(path)
         .push()
@@ -71,8 +63,9 @@ class RealtimeDatabaseNativeImpl extends RealtimeDatabase {
   @override
   Future<int> get serverTimestamp async {
     final offsetSnap =
-        await _database.reference().child("/.info/serverTimeOffset").once();
-    return (offsetSnap.value as int) + DateTime.now().millisecondsSinceEpoch;
+        await _database.ref().child("/.info/serverTimeOffset").once();
+    return (offsetSnap.snapshot.value as int) +
+        DateTime.now().millisecondsSinceEpoch;
   }
 }
 
