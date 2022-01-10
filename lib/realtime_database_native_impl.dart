@@ -9,7 +9,7 @@ class RealtimeDatabaseNativeImpl extends RealtimeDatabase {
 
   @override
   Future getValueAtPath(String path,
-      {String orderByChild, dynamic startAt, endAt, usePrefix = true}) async {
+      {String? orderByChild, dynamic startAt, endAt, usePrefix = true}) async {
     Query ref = _database.ref().child(getPrefix(usePrefix)).child(path);
     if (orderByChild != null) {
       ref = ref.orderByChild(orderByChild);
@@ -36,7 +36,7 @@ class RealtimeDatabaseNativeImpl extends RealtimeDatabase {
 
   @override
   Stream watchValueAtPath(String path,
-      {String orderByChild, startAt, endAt, usePrefix = true}) {
+      {String? orderByChild, startAt, endAt, usePrefix = true}) {
     Query ref = _database.ref().child(getPrefix(usePrefix)).child(path);
     if (orderByChild != null) {
       ref = ref.orderByChild(orderByChild);

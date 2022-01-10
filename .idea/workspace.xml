@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1345f53a-b6fd-43ed-a005-c82f47318992" name="Default Changelist" comment="dump deps">
+    <list default="true" id="1345f53a-b6fd-43ed-a005-c82f47318992" name="Default Changelist" comment="update dart sdk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641647191265</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update dart sdk">
+      <created>1641649157969</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1641649157969</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +170,7 @@
     <MESSAGE value="update dependencies" />
     <MESSAGE value="provide homepage and author. run pub get." />
     <MESSAGE value="dump deps" />
-    <option name="LAST_COMMIT_MESSAGE" value="dump deps" />
+    <MESSAGE value="update dart sdk" />
+    <option name="LAST_COMMIT_MESSAGE" value="update dart sdk" />
   </component>
 </project>

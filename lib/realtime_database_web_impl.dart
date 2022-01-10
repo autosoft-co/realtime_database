@@ -20,7 +20,7 @@ class RealtimeDatabaseWebImpl extends RealtimeDatabase {
   @override
   Future getValueAtPath(
     String path, {
-    String orderByChild,
+    String? orderByChild,
     startAt,
     endAt,
     usePrefix = true,
@@ -42,7 +42,7 @@ class RealtimeDatabaseWebImpl extends RealtimeDatabase {
   @override
   Stream watchValueAtPath(
     String path, {
-    String orderByChild,
+    String? orderByChild,
     startAt,
     endAt,
     usePrefix = true,
